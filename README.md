@@ -50,6 +50,10 @@
 
 ###### Tarayıcıda http://localhost:8501 açılır.
 
+
+
+###### Arkadaki cmd ekranını kapatma.
+
 ## 
 
 ## İlk Çalıştırma Notu
