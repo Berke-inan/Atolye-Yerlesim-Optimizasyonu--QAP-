@@ -50,15 +50,15 @@ run.bat’a çift tıkla.
 
 Tarayıcıda http://localhost:8501 açılır.
 
-### 
+## 
 
-### İlk Çalıştırma Notu
+## İlk Çalıştırma Notu
 
 Streamlit ilk açılışta Email isteyebilir. Boş bırakıp Enter yapılabilir.
 
 
 
-### Gereksinimler
+## Gereksinimler
 
 Python 3.8+
 
@@ -70,9 +70,9 @@ Gurobi
 
 Windows (run.bat için)
 
+## 
 
-
-### Manuel Kurulum (alternatif)
+## Manuel Kurulum (alternatif)
 
 
 
