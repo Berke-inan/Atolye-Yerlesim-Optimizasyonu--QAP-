@@ -52,7 +52,7 @@ Tarayıcıda http://localhost:8501 açılır.
 
 ### 
 
-#### İlk Çalıştırma Notu
+### İlk Çalıştırma Notu
 
 Streamlit ilk açılışta Email isteyebilir. Boş bırakıp Enter yapılabilir.
 
