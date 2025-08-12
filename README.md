@@ -1,10 +1,10 @@
 # Atölye Yerleşim Optimizasyonu (QAP) – Gurobi
 
-##### Makine ve tezgâh yerleşimini Quadratic Assignment Problem yaklaşımıyla optimize eden bir uygulama.
+###### Makine ve tezgâh yerleşimini Quadratic Assignment Problem yaklaşımıyla optimize eden bir uygulama.
 
-##### Kullanıcıdan koordinatlar ve akış matrisi (spagetti diyagramı) alınır, sabit işaretlenen birimler yerinde tutulur, toplam taşıma maliyeti en aza indirilerek atamalar ve görsel plan üretilir.
+###### Kullanıcıdan koordinatlar ve akış matrisi (spagetti diyagramı) alınır, sabit işaretlenen birimler yerinde tutulur, toplam taşıma maliyeti en aza indirilerek atamalar ve görsel plan üretilir.
 
-##### En az bir pozisyonun (0,0) olması şartı kontrol edilir.
+###### En az bir pozisyonun (0,0) olması şartı kontrol edilir.
 
 ## 
 
