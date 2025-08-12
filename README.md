@@ -1,10 +1,10 @@
 # Atölye Yerleşim Optimizasyonu (QAP) – Gurobi
 
-###### Makine ve tezgâh yerleşimini Quadratic Assignment Problem yaklaşımıyla optimize eden bir uygulama.
+##### Makine ve tezgâh yerleşimini Quadratic Assignment Problem yaklaşımıyla optimize eden bir uygulama.
 
-###### Kullanıcıdan koordinatlar ve akış matrisi (spagetti diyagramı) alınır, sabit işaretlenen birimler yerinde tutulur, toplam taşıma maliyeti en aza indirilerek atamalar ve görsel plan üretilir.
+##### Kullanıcıdan koordinatlar ve akış matrisi (spagetti diyagramı) alınır, sabit işaretlenen birimler yerinde tutulur, toplam taşıma maliyeti en aza indirilerek atamalar ve görsel plan üretilir.
 
-###### En az bir pozisyonun (0,0) olması şartı kontrol edilir.
+##### En az bir pozisyonun (0,0) olması şartı kontrol edilir.
 
 ## 
 
@@ -12,63 +12,63 @@
 
 
 
-Koordinat girişi (sabit ve boş pozisyonlar)
+###### Koordinat girişi (sabit ve boş pozisyonlar)
 
+###### 
 
+###### 5×5 veya NxN akış matrisi girişi
 
-5×5 veya NxN akış matrisi girişi
+###### 
 
+###### Sabit birim işaretleme
 
+###### 
 
-Sabit birim işaretleme
+###### Metin çıktı: Birim → Pozisyon → Koordinat
 
+###### 
 
-
-Metin çıktı: Birim → Pozisyon → Koordinat
-
-
-
-Görsel çıktı: Yerleşim planı (matplotlib)
+###### Görsel çıktı: Yerleşim planı (matplotlib)
 
 
 
 ## Hızlı Başlangıç (Windows)
 
+###### 
 
+###### Bu depoyu indir.
 
-Bu depoyu indir.
+###### 
 
+###### run.bat’a çift tıkla.
 
+###### 
 
-run.bat’a çift tıkla.
+###### İlk çalıştırmada otomatik olarak sanal ortam kurulur ve bağımlılıklar yüklenir.
 
+###### 
 
-
-İlk çalıştırmada otomatik olarak sanal ortam kurulur ve bağımlılıklar yüklenir.
-
-
-
-Tarayıcıda http://localhost:8501 açılır.
+###### Tarayıcıda http://localhost:8501 açılır.
 
 ## 
 
 ## İlk Çalıştırma Notu
 
-Streamlit ilk açılışta Email isteyebilir. Boş bırakıp Enter yapılabilir.
+###### Streamlit ilk açılışta Email isteyebilir. Boş bırakıp Enter yapılabilir.
 
 
 
 ## Gereksinimler
 
-Python 3.8+
+###### Python 3.8+
 
+###### 
 
+###### Gurobi
 
-Gurobi
+###### 
 
-
-
-Windows (run.bat için)
+###### Windows (run.bat için)
 
 ## 
 
@@ -76,31 +76,31 @@ Windows (run.bat için)
 
 
 
-python -m venv .venv
+###### python -m venv .venv
 
-.venv\\Scripts\\activate
+###### .venv\\Scripts\\activate
 
-pip install --upgrade pip
+###### pip install --upgrade pip
 
-pip install -r requirements.txt
+###### pip install -r requirements.txt
 
-python -m streamlit run app.py
+###### python -m streamlit run app.py
 
 
 
 ## Dosya Yapısı
 
+###### 
 
+###### app.py → Uygulama kodu
 
-app.py → Uygulama kodu
+###### 
 
+###### requirements.txt → Bağımlılıklar
 
+###### 
 
-requirements.txt → Bağımlılıklar
-
-
-
-run.bat → Tek tıkla çalıştırma betiği
+###### run.bat → Tek tıkla çalıştırma betiği
 
 ## 
 
@@ -108,19 +108,19 @@ run.bat → Tek tıkla çalıştırma betiği
 
 
 
-PowerShell ExecutionPolicy engeli: Yönetici PowerShell →
+###### PowerShell ExecutionPolicy engeli: Yönetici PowerShell →
 
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+###### Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
+###### 
 
+###### Port dolu:
 
-Port dolu:
+###### python -m streamlit run app.py --server.port 8502
 
-python -m streamlit run app.py --server.port 8502
+###### 
 
+###### Matplotlib hatası:
 
-
-Matplotlib hatası:
-
-pip uninstall -y matplotlib \&\& pip cache purge \&\& pip install matplotlib --upgrade
+###### pip uninstall -y matplotlib \&\& pip cache purge \&\& pip install matplotlib --upgrade
 
